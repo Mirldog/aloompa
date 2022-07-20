@@ -4,7 +4,7 @@ import {
   GraphQLNonNull,
   GraphQLList,
 } from "graphql";
-import { EventType } from "./Event";
+import { EventType } from "./index";
 import data from "../../data.json";
 
 export const StageType: any = new GraphQLObjectType({

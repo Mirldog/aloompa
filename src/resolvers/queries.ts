@@ -4,7 +4,7 @@ import {
   GraphQLList,
   GraphQLInt,
 } from "graphql";
-import { AppType, StageType, EventType } from "../entities";
+import { AppType, StageType, EventType } from "../entities/index";
 import data from "../../data.json";
 
 export const RootQueryType = new GraphQLObjectType({
